@@ -1,5 +1,39 @@
 # Sunny's Missing Shoe - Comic Project
 
+A children's comic strip about a toddler named Sunny and her magical shoe adventure.
+
+## Project Structure
+
+```
+sunnys-secret/
+├── assets/
+│   └── comic_images/
+│       ├── page1/
+│       │   ├── panel1.png
+│       │   └── panel2.png
+│       ├── page2/
+│       │   ├── panel1.png
+│       │   ├── panel2.png
+│       │   └── panel3.png
+│       └── page3/
+│           ├── panel1.png
+│           ├── panel2.png
+│           └── panel3.png
+├── scripts/
+│   └── comic_script.md
+├── layouts/
+│   ├── page1.svg
+│   ├── page2.svg
+│   ├── page3.svg
+│   ├── page4.svg
+│   ├── page5.svg
+│   ├── speech_bubble.svg
+│   └── shoe_glow.svg
+├── index.html
+├── server.js
+└── README.md
+```
+
 ## Technical Specifications
 
 ### Panel Dimensions
@@ -53,21 +87,6 @@
    - Mummy: Show progression of tiredness through the search
    - Papa: Appears only in first panel, establish clear design
 
-## Project Structure
-```
-sunnys-secret/
-├── assets/
-│   ├── characters/
-│   ├── backgrounds/
-│   └── props/
-├── scripts/
-│   └── comic_script.md
-├── layouts/
-│   └── panel_layouts/
-└── output/
-    └── final_pages/
-```
-
 ## Workflow
 1. Create rough sketches for each panel
 2. Develop character designs and expressions
@@ -82,3 +101,135 @@ sunnys-secret/
 - Pay special attention to the magical shoe glow effect
 - Ensure Delhi-specific details are accurate (architecture, clothing, etc.)
 - Keep the 1998 setting consistent in all visual elements
+
+## Comic Progress
+
+### Page 1 (Complete)
+- Panel 1: Sunny receiving the shoes
+- Panel 2: Sunny with the magical shoe
+
+### Page 2 (Complete)
+- Panel 1: Morning preparation
+- Panel 2: Missing shoe discovery
+- Panel 3: Beginning of the search
+
+### Page 3 (In Progress)
+- Panel 1: Search continues
+- Panel 2: Search continues
+- Panel 3: Not started
+
+### Pages 4-5 (Not Started)
+- To be completed
+
+## Preview Instructions
+
+1. Start the local server:
+   ```bash
+   node server.js
+   ```
+
+2. Open your browser and navigate to:
+   ```
+   http://localhost:8000
+   ```
+
+## File Naming Convention
+
+- Images are stored in page-specific folders (page1, page2, etc.)
+- Each panel is named sequentially (panel1.png, panel2.png, etc.)
+- Completed panels are stored in their respective page folders
+- The preview page (index.html) automatically updates to show completed panels
+
+## Tools Used
+
+- HTML/CSS for the preview interface
+- Node.js for the local server
+- SVG for layout templates
+
+## Progress Tracking
+
+### Completed Work
+- Page 1 (Fully Complete)
+  - `panel1.png` - Sunny receiving the shoes ✓
+  - `panel2.png` - Sunny with the magical shoe ✓
+- Page 2 (Partially Complete)
+  - `panel1.png` - Morning preparation ✓
+  - `panel2.png` - Missing shoe discovery (In Progress)
+  - `panel3.png` - Beginning of the search (Not Started)
+
+### In Progress
+- Page 2, Panel 2 - Missing shoe discovery
+
+### Remaining Work
+- Page 2
+  - Panel 3 - Beginning of the search
+- Page 3 (3 panels)
+  - Panel 1 - Mummy confronting Sunny
+  - Panel 2 - Living room search
+  - Panel 3 - Bathroom search
+- Page 4 (3 panels)
+  - Panel 1 - Balcony search
+  - Panel 2 - Kitchen search
+  - Panel 3 - Final bedroom scene
+- Page 5 (2 panels)
+  - Panel 1 - Shoe discovery
+  - Panel 2 - Sunny's laughter
+
+## Folder Organization
+
+### completed/
+- Contains finished panels
+- Organized by page number
+- Final versions only
+
+### in_progress/
+- Current work in progress
+- Working files and drafts
+- Temporary storage
+
+### Original page folders/
+- Keep original structure
+- Use for reference
+- Maintain organization
+
+## File Specifications
+
+### Image Requirements
+- Resolution: Minimum 300 DPI
+- Color Mode: RGB for digital, CMYK for print
+- File Formats:
+  - Working files: .psd, .clip, .kra
+  - Final files: .png (transparency), .jpg (no transparency)
+
+### Naming Conventions
+1. Use lowercase letters
+2. Simple panel numbering (panel1.png, panel2.png, etc.)
+3. Keep files in their respective page folders
+
+### Version Control
+- Add version numbers when needed (panel1_v1.png, panel1_v2.png)
+- Mark final versions with _final suffix
+- Keep working files separate from final versions
+
+## Workflow Tips
+
+1. **Panel Creation**
+   - Work in layers
+   - Save progress frequently
+   - Keep original files backed up
+   - Use the SVG templates as guides
+
+2. **File Organization**
+   - Move completed panels to completed/ folder
+   - Keep in-progress work in in_progress/
+   - Maintain backups of all versions
+
+3. **Final Assembly**
+   - Ensure consistent style across panels
+   - Check resolution and color mode
+   - Verify file formats
+
+## Backup Recommendations
+1. Keep a copy of all files in a separate location
+2. Use cloud storage for important versions
+3. Maintain backups of working files 
