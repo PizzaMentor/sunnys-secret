@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8.5in" height="11in" viewBox="0 0 850 1100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Base shoe shape (neon green and orange) -->
+    <g transform="translate(425, 550)">
+        <!-- Shoe outline -->
+        <path d="M-100,-50 C-100,-100 100,-100 100,-50 L100,50 C100,100 -100,100 -100,50 Z" 
+              fill="#39FF14" stroke="black" stroke-width="2"/>
+        
+        <!-- Orange accent -->
+        <path d="M-80,-30 C-80,-70 80,-70 80,-30 L80,30 C80,70 -80,70 -80,30 Z" 
+              fill="#FF5F1F" stroke="black" stroke-width="1"/>
+    </g>
+
+    <!-- Inner glow effect -->
+    <g transform="translate(425, 550)">
+        <!-- Primary glow -->
+        <circle cx="0" cy="0" r="120" fill="#FFD700" opacity="0.3"/>
+        
+        <!-- Secondary glow -->
+        <circle cx="0" cy="0" r="100" fill="#FFD700" opacity="0.5"/>
+        
+        <!-- Core glow -->
+        <circle cx="0" cy="0" r="80" fill="#FFD700" opacity="0.7"/>
+    </g>
+
+    <!-- Outer glow effect -->
+    <g transform="translate(425, 550)">
+        <!-- Large outer glow -->
+        <circle cx="0" cy="0" r="200" fill="#FFA500" opacity="0.2"/>
+        
+        <!-- Medium outer glow -->
+        <circle cx="0" cy="0" r="180" fill="#FFA500" opacity="0.3"/>
+        
+        <!-- Small outer glow -->
+        <circle cx="0" cy="0" r="160" fill="#FFA500" opacity="0.4"/>
+    </g>
+
+    <!-- Sparkle effects -->
+    <g transform="translate(425, 550)">
+        <!-- Large sparkles -->
+        <path d="M-150,-150 L-140,-160 L-130,-150 L-140,-140 Z" fill="#FFFFFF" opacity="0.8"/>
+        <path d="M150,-150 L160,-160 L170,-150 L160,-140 Z" fill="#FFFFFF" opacity="0.8"/>
+        <path d="M-150,150 L-140,160 L-130,150 L-140,140 Z" fill="#FFFFFF" opacity="0.8"/>
+        <path d="M150,150 L160,160 L170,150 L160,140 Z" fill="#FFFFFF" opacity="0.8"/>
+        
+        <!-- Medium sparkles -->
+        <circle cx="-100" cy="-100" r="3" fill="#FFFFFF" opacity="0.6"/>
+        <circle cx="100" cy="-100" r="3" fill="#FFFFFF" opacity="0.6"/>
+        <circle cx="-100" cy="100" r="3" fill="#FFFFFF" opacity="0.6"/>
+        <circle cx="100" cy="100" r="3" fill="#FFFFFF" opacity="0.6"/>
+        
+        <!-- Small sparkles -->
+        <circle cx="-50" cy="-50" r="2" fill="#FFFFFF" opacity="0.4"/>
+        <circle cx="50" cy="-50" r="2" fill="#FFFFFF" opacity="0.4"/>
+        <circle cx="-50" cy="50" r="2" fill="#FFFFFF" opacity="0.4"/>
+        <circle cx="50" cy="50" r="2" fill="#FFFFFF" opacity="0.4"/>
+    </g>
+
+    <!-- Legend -->
+    <g transform="translate(50, 50)">
+        <text x="0" y="0" font-family="Arial" font-size="12" fill="#000000">Glow Effect Layers:</text>
+        <text x="0" y="20" font-family="Arial" font-size="10" fill="#000000">1. Outer Glow (Orange, 30% opacity)</text>
+        <text x="0" y="35" font-family="Arial" font-size="10" fill="#000000">2. Inner Glow (Gold, 70% opacity)</text>
+        <text x="0" y="50" font-family="Arial" font-size="10" fill="#000000">3. Shoe Base (Neon Green)</text>
+        <text x="0" y="65" font-family="Arial" font-size="10" fill="#000000">4. Shoe Accent (Orange)</text>
+        <text x="0" y="80" font-family="Arial" font-size="10" fill="#000000">5. Sparkle Effects (White, varying opacity)</text>
+    </g>
+</svg> 
